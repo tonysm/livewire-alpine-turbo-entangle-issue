@@ -12,6 +12,10 @@
         <livewire:styles />
     </head>
     <body class="antialiased">
+        <ul>
+            <li><a href="/">First</a></li>
+            <li><a href="/second">Second</a></li>
+        </ul>
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             @yield('content')
         </div>
