@@ -10,6 +10,8 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "@hotwired/turbo": "*",
+        "alpine-turbo-drive-adapter": "^1.1.0",
         "alpinejs": "^2.8.2",
         "axios": "^0.21",
         "laravel-mix": "^6.0.6",
